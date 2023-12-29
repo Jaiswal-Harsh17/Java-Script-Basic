@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a, b, c;
+        document.write("<h1>Before Initialization</h1>")
+        document.write("<br>Data type of a is ", typeof a)
+        document.write("<br>Data type of b is ", typeof b)
+        document.write("<br>Data type of c is ", typeof c)
+
+        a = 10;
+        b = 3.14;
+        c = "Harsh"
+        var d = "true"
+        var marks = [90,86,70,100]
+        var student = {name:"Harsh",rno:50}
+        var s1,s2;
+        s1="Your's"
+        s2='Hello"Harsh"'
+        document.write("<h1>After Initialization</h1>")
+        document.write("<br>Data type of a is ", typeof a)
+        document.write("<br>Data type of b is ", typeof b)
+        document.write("<br>Data type of c is ", typeof c)
+        document.write("<br>Data type of d is ", typeof d)
+        document.write("<br>Data type of marks is ", typeof marks)
+        document.write("<br>Data type of students is ", typeof student)
+        document.write("<br><br>",marks[0])
+        document.write("<br>",marks[3])
+        document.write("<br>",student.name) 
+        document.write("<br>",student.rno)
+        document.write("<br>",s1)
+        document.write("<br>",s2)
+    </script>
+    <h1>CHANGE THE HTML CONTENT</h1>
+    <h2>HELLO GUEST</h2>
+    <h3>WELCOME TO JAVA SCRIPT</h3>
+    <h2 id="A">Hello Guest</h2>
+    <button type="button" onclick='document.getElementById("A").innerHTML="Hello Harsh"'>Harsh</button>
+    <button type="button" onclick='document.getElementById("A").innerHTML="Hello Jaiswal"'>Jaiswal</button>
+    <h1>Change in attributes</h1>
+    
+    
+</body>
+
+</html>
